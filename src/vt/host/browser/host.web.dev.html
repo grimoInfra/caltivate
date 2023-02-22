@@ -1,0 +1,22 @@
+<!--(C) Copyright Agrimo Infra LTD. All Rights Reserved-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caltivate - Dev</title>
+</head>
+<body aria-label="">
+    <script>
+        require.config({
+            baseUrl : "."
+        });
+        require(['host.web.bundle'],function(value){
+            console.log('didLoadBundle')
+        })
+    </script>
+
+    <h1>We Are going to Use WebComponents</h1>
+</body>
+</html>
